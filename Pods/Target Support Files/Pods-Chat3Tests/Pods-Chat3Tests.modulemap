@@ -1,0 +1,6 @@
+framework module Pods_Chat3Tests {
+  umbrella header "Pods-Chat3Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

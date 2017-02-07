@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E7495270C46ED8AB0E88AE /* Pods_Chat3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC5683CA44AE72F7C8A4979 /* Pods_Chat3UITests.framework */; };
+		A5510F50B97C7CECF15E5C33 /* Pods_Chat3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09208C7280BEDA76312C2150 /* Pods_Chat3.framework */; };
+		C916682CF8295A628E41BF80 /* Pods_Chat3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598459AB9F0ED17CE5C2588D /* Pods_Chat3Tests.framework */; };
+		E52D278D1E484E1A003FF5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D278C1E484E1A003FF5B1 /* AppDelegate.swift */; };
+		E52D278F1E484E1A003FF5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D278E1E484E1A003FF5B1 /* ViewController.swift */; };
+		E52D27921E484E1A003FF5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52D27901E484E1A003FF5B1 /* Main.storyboard */; };
+		E52D27941E484E1A003FF5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52D27931E484E1A003FF5B1 /* Assets.xcassets */; };
+		E52D27971E484E1A003FF5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52D27951E484E1A003FF5B1 /* LaunchScreen.storyboard */; };
+		E52D27A21E484E1A003FF5B1 /* Chat3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D27A11E484E1A003FF5B1 /* Chat3Tests.swift */; };
+		E52D27AD1E484E1A003FF5B1 /* Chat3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D27AC1E484E1A003FF5B1 /* Chat3UITests.swift */; };
+		E52D27BD1E4854C2003FF5B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E52D27BC1E4854C2003FF5B1 /* GoogleService-Info.plist */; };
+		E52D27C01E496E48003FF5B1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D27BF1E496E48003FF5B1 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52D279E1E484E1A003FF5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52D27811E484E1A003FF5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52D27881E484E1A003FF5B1;
+			remoteInfo = Chat3;
+		};
+		E52D27A91E484E1A003FF5B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52D27811E484E1A003FF5B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52D27881E484E1A003FF5B1;
+			remoteInfo = Chat3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09208C7280BEDA76312C2150 /* Pods_Chat3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C2A8D764A52CDECCA7C6C /* Pods-Chat3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat3Tests/Pods-Chat3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F55DC35802BEE88996532E2 /* Pods-Chat3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat3/Pods-Chat3.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB773622664E0CE3A417C3F /* Pods-Chat3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat3UITests/Pods-Chat3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BE61DBD5841F74B3930314A /* Pods-Chat3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat3UITests/Pods-Chat3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		598459AB9F0ED17CE5C2588D /* Pods_Chat3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC5683CA44AE72F7C8A4979 /* Pods_Chat3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45C68F2F627333BFA7E9B32 /* Pods-Chat3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat3/Pods-Chat3.release.xcconfig"; sourceTree = "<group>"; };
+		E52D27891E484E1A003FF5B1 /* Chat3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52D278C1E484E1A003FF5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E52D278E1E484E1A003FF5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E52D27911E484E1A003FF5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E52D27931E484E1A003FF5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52D27961E484E1A003FF5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E52D27981E484E1A003FF5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52D279D1E484E1A003FF5B1 /* Chat3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52D27A11E484E1A003FF5B1 /* Chat3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat3Tests.swift; sourceTree = "<group>"; };
+		E52D27A31E484E1A003FF5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52D27A81E484E1A003FF5B1 /* Chat3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52D27AC1E484E1A003FF5B1 /* Chat3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat3UITests.swift; sourceTree = "<group>"; };
+		E52D27AE1E484E1A003FF5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52D27BC1E4854C2003FF5B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E52D27BE1E486975003FF5B1 /* Chat3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chat3.entitlements; sourceTree = "<group>"; };
+		E52D27BF1E496E48003FF5B1 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FBAEFF239840D24ACB67EB78 /* Pods-Chat3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat3Tests/Pods-Chat3Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52D27861E484E1A003FF5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5510F50B97C7CECF15E5C33 /* Pods_Chat3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52D279A1E484E1A003FF5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C916682CF8295A628E41BF80 /* Pods_Chat3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52D27A51E484E1A003FF5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E7495270C46ED8AB0E88AE /* Pods_Chat3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C283D21B344C29070252AD07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F55DC35802BEE88996532E2 /* Pods-Chat3.debug.xcconfig */,
+				A45C68F2F627333BFA7E9B32 /* Pods-Chat3.release.xcconfig */,
+				150C2A8D764A52CDECCA7C6C /* Pods-Chat3Tests.debug.xcconfig */,
+				FBAEFF239840D24ACB67EB78 /* Pods-Chat3Tests.release.xcconfig */,
+				2BE61DBD5841F74B3930314A /* Pods-Chat3UITests.debug.xcconfig */,
+				2AB773622664E0CE3A417C3F /* Pods-Chat3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFA6A7C273B9E4924C2B4B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09208C7280BEDA76312C2150 /* Pods_Chat3.framework */,
+				598459AB9F0ED17CE5C2588D /* Pods_Chat3Tests.framework */,
+				5AC5683CA44AE72F7C8A4979 /* Pods_Chat3UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E52D27801E484E1A003FF5B1 = {
+			isa = PBXGroup;
+			children = (
+				E52D278B1E484E1A003FF5B1 /* Chat3 */,
+				E52D27A01E484E1A003FF5B1 /* Chat3Tests */,
+				E52D27AB1E484E1A003FF5B1 /* Chat3UITests */,
+				E52D278A1E484E1A003FF5B1 /* Products */,
+				C283D21B344C29070252AD07 /* Pods */,
+				DFA6A7C273B9E4924C2B4B95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E52D278A1E484E1A003FF5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52D27891E484E1A003FF5B1 /* Chat3.app */,
+				E52D279D1E484E1A003FF5B1 /* Chat3Tests.xctest */,
+				E52D27A81E484E1A003FF5B1 /* Chat3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52D278B1E484E1A003FF5B1 /* Chat3 */ = {
+			isa = PBXGroup;
+			children = (
+				E52D27BE1E486975003FF5B1 /* Chat3.entitlements */,
+				E52D278C1E484E1A003FF5B1 /* AppDelegate.swift */,
+				E52D278E1E484E1A003FF5B1 /* ViewController.swift */,
+				E52D27901E484E1A003FF5B1 /* Main.storyboard */,
+				E52D27931E484E1A003FF5B1 /* Assets.xcassets */,
+				E52D27951E484E1A003FF5B1 /* LaunchScreen.storyboard */,
+				E52D27981E484E1A003FF5B1 /* Info.plist */,
+				E52D27BC1E4854C2003FF5B1 /* GoogleService-Info.plist */,
+				E52D27BF1E496E48003FF5B1 /* Message.swift */,
+			);
+			path = Chat3;
+			sourceTree = "<group>";
+		};
+		E52D27A01E484E1A003FF5B1 /* Chat3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E52D27A11E484E1A003FF5B1 /* Chat3Tests.swift */,
+				E52D27A31E484E1A003FF5B1 /* Info.plist */,
+			);
+			path = Chat3Tests;
+			sourceTree = "<group>";
+		};
+		E52D27AB1E484E1A003FF5B1 /* Chat3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E52D27AC1E484E1A003FF5B1 /* Chat3UITests.swift */,
+				E52D27AE1E484E1A003FF5B1 /* Info.plist */,
+			);
+			path = Chat3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52D27881E484E1A003FF5B1 /* Chat3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52D27B11E484E1A003FF5B1 /* Build configuration list for PBXNativeTarget "Chat3" */;
+			buildPhases = (
+				B1D338A40F2937AC44B92AE2 /* 📦 Check Pods Manifest.lock */,
+				E52D27851E484E1A003FF5B1 /* Sources */,
+				E52D27861E484E1A003FF5B1 /* Frameworks */,
+				E52D27871E484E1A003FF5B1 /* Resources */,
+				4DBD17D68C6F4F78CB8D85A4 /* 📦 Embed Pods Frameworks */,
+				50276903CE71FF630F6A05ED /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chat3;
+			productName = Chat3;
+			productReference = E52D27891E484E1A003FF5B1 /* Chat3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E52D279C1E484E1A003FF5B1 /* Chat3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52D27B41E484E1A003FF5B1 /* Build configuration list for PBXNativeTarget "Chat3Tests" */;
+			buildPhases = (
+				A13C24D14D7F9A26DAD78380 /* 📦 Check Pods Manifest.lock */,
+				E52D27991E484E1A003FF5B1 /* Sources */,
+				E52D279A1E484E1A003FF5B1 /* Frameworks */,
+				E52D279B1E484E1A003FF5B1 /* Resources */,
+				1AD13AEF855FCAD5EDE11E1F /* 📦 Embed Pods Frameworks */,
+				1ED63E10105E5F294F0C84FC /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52D279F1E484E1A003FF5B1 /* PBXTargetDependency */,
+			);
+			name = Chat3Tests;
+			productName = Chat3Tests;
+			productReference = E52D279D1E484E1A003FF5B1 /* Chat3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52D27A71E484E1A003FF5B1 /* Chat3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52D27B71E484E1A003FF5B1 /* Build configuration list for PBXNativeTarget "Chat3UITests" */;
+			buildPhases = (
+				A873646C128B4D67558BC488 /* 📦 Check Pods Manifest.lock */,
+				E52D27A41E484E1A003FF5B1 /* Sources */,
+				E52D27A51E484E1A003FF5B1 /* Frameworks */,
+				E52D27A61E484E1A003FF5B1 /* Resources */,
+				67A603130F7DC6F7784C18E5 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52D27AA1E484E1A003FF5B1 /* PBXTargetDependency */,
+			);
+			name = Chat3UITests;
+			productName = Chat3UITests;
+			productReference = E52D27A81E484E1A003FF5B1 /* Chat3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52D27811E484E1A003FF5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "とん航";
+				TargetAttributes = {
+					E52D27881E484E1A003FF5B1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9DDR473BRH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					E52D279C1E484E1A003FF5B1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E52D27881E484E1A003FF5B1;
+					};
+					E52D27A71E484E1A003FF5B1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E52D27881E484E1A003FF5B1;
+					};
+				};
+			};
+			buildConfigurationList = E52D27841E484E1A003FF5B1 /* Build configuration list for PBXProject "Chat3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52D27801E484E1A003FF5B1;
+			productRefGroup = E52D278A1E484E1A003FF5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52D27881E484E1A003FF5B1 /* Chat3 */,
+				E52D279C1E484E1A003FF5B1 /* Chat3Tests */,
+				E52D27A71E484E1A003FF5B1 /* Chat3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52D27871E484E1A003FF5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D27971E484E1A003FF5B1 /* LaunchScreen.storyboard in Resources */,
+				E52D27BD1E4854C2003FF5B1 /* GoogleService-Info.plist in Resources */,
+				E52D27941E484E1A003FF5B1 /* Assets.xcassets in Resources */,
+				E52D27921E484E1A003FF5B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52D279B1E484E1A003FF5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52D27A61E484E1A003FF5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AD13AEF855FCAD5EDE11E1F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat3Tests/Pods-Chat3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED63E10105E5F294F0C84FC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat3Tests/Pods-Chat3Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBD17D68C6F4F78CB8D85A4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat3/Pods-Chat3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50276903CE71FF630F6A05ED /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat3/Pods-Chat3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A603130F7DC6F7784C18E5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chat3UITests/Pods-Chat3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13C24D14D7F9A26DAD78380 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A873646C128B4D67558BC488 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D338A40F2937AC44B92AE2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52D27851E484E1A003FF5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D27C01E496E48003FF5B1 /* Message.swift in Sources */,
+				E52D278F1E484E1A003FF5B1 /* ViewController.swift in Sources */,
+				E52D278D1E484E1A003FF5B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52D27991E484E1A003FF5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D27A21E484E1A003FF5B1 /* Chat3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52D27A41E484E1A003FF5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D27AD1E484E1A003FF5B1 /* Chat3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52D279F1E484E1A003FF5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52D27881E484E1A003FF5B1 /* Chat3 */;
+			targetProxy = E52D279E1E484E1A003FF5B1 /* PBXContainerItemProxy */;
+		};
+		E52D27AA1E484E1A003FF5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52D27881E484E1A003FF5B1 /* Chat3 */;
+			targetProxy = E52D27A91E484E1A003FF5B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E52D27901E484E1A003FF5B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52D27911E484E1A003FF5B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E52D27951E484E1A003FF5B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52D27961E484E1A003FF5B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52D27AF1E484E1A003FF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E52D27B01E484E1A003FF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52D27B21E484E1A003FF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F55DC35802BEE88996532E2 /* Pods-Chat3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Chat3/Chat3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9DDR473BRH;
+				INFOPLIST_FILE = Chat3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisyatokaku.Chat3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E52D27B31E484E1A003FF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45C68F2F627333BFA7E9B32 /* Pods-Chat3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Chat3/Chat3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9DDR473BRH;
+				INFOPLIST_FILE = Chat3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisyatokaku.Chat3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E52D27B51E484E1A003FF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150C2A8D764A52CDECCA7C6C /* Pods-Chat3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Chat3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisyatokaku.Chat3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chat3.app/Chat3";
+			};
+			name = Debug;
+		};
+		E52D27B61E484E1A003FF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAEFF239840D24ACB67EB78 /* Pods-Chat3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Chat3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisyatokaku.Chat3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chat3.app/Chat3";
+			};
+			name = Release;
+		};
+		E52D27B81E484E1A003FF5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE61DBD5841F74B3930314A /* Pods-Chat3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Chat3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisyatokaku.Chat3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chat3;
+			};
+			name = Debug;
+		};
+		E52D27B91E484E1A003FF5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB773622664E0CE3A417C3F /* Pods-Chat3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Chat3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisyatokaku.Chat3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Chat3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52D27841E484E1A003FF5B1 /* Build configuration list for PBXProject "Chat3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52D27AF1E484E1A003FF5B1 /* Debug */,
+				E52D27B01E484E1A003FF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52D27B11E484E1A003FF5B1 /* Build configuration list for PBXNativeTarget "Chat3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52D27B21E484E1A003FF5B1 /* Debug */,
+				E52D27B31E484E1A003FF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52D27B41E484E1A003FF5B1 /* Build configuration list for PBXNativeTarget "Chat3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52D27B51E484E1A003FF5B1 /* Debug */,
+				E52D27B61E484E1A003FF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52D27B71E484E1A003FF5B1 /* Build configuration list for PBXNativeTarget "Chat3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52D27B81E484E1A003FF5B1 /* Debug */,
+				E52D27B91E484E1A003FF5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52D27811E484E1A003FF5B1 /* Project object */;
+}
